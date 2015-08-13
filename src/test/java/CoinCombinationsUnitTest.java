@@ -6,8 +6,8 @@ public class CoinCombinationsUnitTest {
   @Test
   public void coinCombo_forOnePenny() {
     CoinCombinations coins = new CoinCombinations();
-    Integer[] result = {0,0,0,1};
-    assertEquals(result, coins.numberOfCoins(1));
+    Integer[] result = {3,3,3,30};
+    assertEquals(result, coins.numberOfCoins(150));
   }
 
   @Test
