@@ -1,0 +1,22 @@
+Coin Combinations App lets a user enter an amount of cents and shows the smallest number of quarters, dimes, nickels, and pennies needed to make that change
+
+1.Input:1C
+Output:1penny
+
+2.Input:5C
+Output:1Nickel
+
+3.Input:6C
+Output:1Nickel,1Penny
+
+4.Input:10C
+Output:1dime
+
+5.Input:16C
+Output:1Dime,1Nickel,1Penny
+
+6.Input:25C
+Output:1Quarter
+
+7.Input:41C
+Output:1Quarter,1Dime,1Nickel,1Penny
